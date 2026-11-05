@@ -1,0 +1,17 @@
+ÇÖP ADAM SAVAŞLARI — ONLINE SÜRÜM
+
+Gereksinim: Node.js 18 veya üstü
+
+Bilgisayarda çalıştırma:
+1) Bu klasörü bilgisayarına çıkar.
+2) Klasörün içinde terminal/CMD aç.
+3) npm install yaz.
+4) npm start yaz.
+5) Tarayıcıdan http://localhost:3000 adresini aç.
+
+Arkadaşla oynamak:
+- Aynı ağdaki arkadaşın http://BILGISAYARIN-LAN-IP:3000 adresinden girebilir.
+- İnternet üzerinden oynamak için bu klasörü Node.js destekleyen bir sunucuya deploy etmen gerekir.
+- Sunucunun HTTPS/WSS arkasında çalışması önerilir. Oyunun adresi ve WebSocket aynı host üzerinden kullanılır.
+
+Online modda oda kurma, oda koduyla katılma ve hızlı eşleşme bulunur. Oyun motorunda host simülasyonu ve oyuncular arasında durum aktarımı kullanılır.
